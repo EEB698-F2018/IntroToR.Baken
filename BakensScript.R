@@ -50,8 +50,9 @@ library(ape)
 
 ## Reading in and manipulating datasets
 getwd()
-setwd("/Users/ericabaken/Documents/School/R resources/") # Hitting tab will populate and see what the options are
-Microhabitats <- read.csv("LunchinatoRs/F17.Week10.Baken/Microhabitat.csv")
+setwd("/Users/ericabaken/Documents/Thesis/Data") # Hitting tab will populate and see what the options are
+setwd("/Users/ericabaken/Documents/School/R resources/IntroToR")
+Microhabitats <- read.csv("Microhabitat.csv")
 
 # Object types
 head(Microhabitats)
